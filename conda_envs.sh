@@ -23,5 +23,7 @@ conda install -c anaconda seaborn -y
 conda install -c conda-forge mahotas -y
 conda install -c anaconda vtk -y
 conda install -c anaconda pyqt -y
+conda install -c conda-forge opencv -y
+
 
 
