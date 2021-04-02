@@ -7,7 +7,8 @@ ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
 reboot
 
-## Brave Browser
+## Brave Browser --> Addon : IGraal, Wanteed, Find sci paper, AI/ML Papers with Code Everywhere - CatalyzeX
+
 
 sudo apt install apt-transport-https curl gnupg
 
@@ -99,16 +100,24 @@ sudo snap install cmake --classic
 
 sudo apt-get install qt5-default
 
+## VTK6
+
+sudo apt-get install libvtk6-qt-dev
+
 ## Git
 
 sudo apt install git-all
 git config --global user.name 'sebgra'
 git config --global user.email sebastiengradit@hotmail.com
 
+## Proton VPN
 
 
-
-
-
+sudo apt-get upgrade
+wget -q -O - https://repo.protonvpn.com/debian/public_key.asc | sudo apt-key add -
+sudo apt-get update && sudo apt-get install protonvpn
+protonvpn-cli login sebgra11
+protonvpn-cli connect
+protonvpn-cli status
 
 
